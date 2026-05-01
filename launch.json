@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Streamlit app",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "Cadastro.py",
+        "--server.port=8501"
+      ],
+      "console": "integratedTerminal",
+      "subProcess": True,
+      "justMyCode": False
+    }
+  ]
+}
