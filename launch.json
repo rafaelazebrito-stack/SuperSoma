@@ -14,6 +14,14 @@
       "console": "integratedTerminal",
       "subProcess": True,
       "justMyCode": False
+    },
+    {
+      "name": "Run Python script",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": True
     }
   ]
 }
